@@ -1,1 +1,1 @@
-https://github.com/lonelygusenica/slozhno-sosredotochitsya-ad#
+https://github.com/lonelygusenica/slozhno-sosredotochitsya-ad
