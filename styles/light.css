@@ -13,4 +13,39 @@
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  --bg-color: #fff1f7;
+  --h1-title-color: #FFC2E6;
+  --paragraph-bg-color: #FF8DCB;
+  --accent-color: #353430;
+  --accent-color-hover: rgba(255, 141, 203, 0.4);
+  --accent-color-button-hover: rgba(53, 52, 48, 0.4);
+  --main-title-color: #353430;
+  --description-text-color: #353430;
+  --second-title-color: #353430; 
+  --main-font-family: 'IBM Plex mono', sans-serif;
+  --bg-img: url(../images/cover-image-light.png);
+}
+
+
+.theme-light .rec__container {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #fff1f7;
+    --h1-title-color: #FFC2E6;
+    --paragraph-bg-color: #FF8DCB;
+    --accent-color: #353430;
+    --accent-color-hover: rgba(255, 141, 203, 0.4);
+    --accent-color-button-hover: rgba(53, 52, 48, 0.4);
+    --main-title-color: #353430;
+    --description-text-color: #353430;
+    --second-title-color: #353430; 
+    --main-font-family: 'IBM Plex mono', sans-serif;
+    --bg-img: url(../images/cover-image-light.png);
+  }
+  .rec__container {
+    display: none;
+  }
 }

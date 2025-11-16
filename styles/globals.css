@@ -39,4 +39,8 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  border: none;      /* Убираем границы */
+  background: none;  /* Убираем фон */
+  box-shadow: none;  /* Убираем тени */
+  text-align: center;
 }
